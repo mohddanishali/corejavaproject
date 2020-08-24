@@ -8,8 +8,10 @@ public class CountDigitsInAnNumber
 		{
 			System.out.println("Hello..");
 		}
-		private class B{
-			void m1() {
+		private class B
+		{
+			void m1() 
+			{
 				System.out.println("ddd");
 			}
 		}
@@ -18,12 +20,10 @@ public class CountDigitsInAnNumber
 	public static void main(String[] args)
 	{
 		CountDigitsInAnNumber a = new CountDigitsInAnNumber();
-		A b=	a.new A();
+		A b  =	a.new A();
 		b.m();
 		
 		A.B n = b.new B();
-		
 		n.m1();
-	
 	}
 }
