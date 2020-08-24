@@ -36,7 +36,7 @@ public class GetDataByExternalUrl
 				// use comma as separator
                 String[] headers = line.split(",");
 
-              //  System.out.println(headers[0] + " "+ headers[1]+" "+headers[headers.length-2]+" "+headers[headers.length-1]);
+                System.out.println(headers[0] + " "+ headers[1]+" "+headers[headers.length-2]+" "+headers[headers.length-1]);
                 
                 if(count >=  1)
                 {
