@@ -23,6 +23,7 @@ public class CountDigitsInAnNumber
 		A b  =	a.new A();
 		b.m();
 		
+		
 		A.B n = b.new B();
 		n.m1();
 	}
